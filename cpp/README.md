@@ -1,6 +1,8 @@
 # Build
 A basic makefile is included which uses `g++` as the default compiler. Alternatively, the build command ran is
-`g++ -std=c++11 -g -O3 -pedantic-errors -Wall -Wextra -Werror simple-bpe.cpp -o simple-bpe`
+```
+g++ -std=c++11 -g -O3 -pedantic-errors -Wall -Wextra -Werror simple-bpe.cpp -o simple-bpe
+```
 # Run
 ```
 -i input file
